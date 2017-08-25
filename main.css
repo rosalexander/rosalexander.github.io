@@ -1,29 +1,86 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Lora');
+
+
+
 html {
-    background: #f0f0f0;
+    background: #E8EAF6;
 }
 
 body {
-    background: #f0f0f0;
+    background: #E8EAF6;
 }
 
 
 
-#wrapper {
+#wrapper1 {
     display: flex;
-    flex-direction:column;
-    justify-content: center;
+    flex-direction:row;
+    justify-content: space-between;
     align-items: center;
 /*    height: 200px;*/
-    border: 1px solid black;
+/*    border: 1px solid black;*/
+    background: #3F51B5;
+    box-shadow: 2px 2px 2px #888888;
 
+}
+
+#wrapper2 {
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	display: flex;
+
+}
+
+.column {
+    display: flex;
+    flex-direction: row;
+}
+
+.column-double; {
+}
+
+.box {
+    background: lightgrey;
+	border: 1px solid grey;
+	margin: 10px;
+	display:flex;
+    flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.picture {
+    margin-left: 0px;
 }
 
 #header {
-    margin-left: 30px;
+    font-family: "Lora";
+    padding-left: 10px;
+}
+
+#header h1 {
+    font-size: 34px;
+    color: white;
 }
 
 #nav {
-    margin-top: -30px;
+    padding-right: 10px;
+    font-family: "Open Sans";
+
+}
+
+.link a{
+    color: white;
+    text-decoration: none;
+}
+
+.line {
+    width: 85%;
+    border-bottom: 1px solid black;
 }
 
 li {
